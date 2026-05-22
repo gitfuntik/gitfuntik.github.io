@@ -218,15 +218,15 @@
 		{ id: 'russian_series', emoji: '🇷🇺', name_key: 'tmdb_mod_c_rus_series', request: 'discover/tv?with_original_language=ru&sort_by=last_air_date.desc&first_air_date.gte=2020-01-01&last_air_date.lte=' + today + '&vote_average.gte=6&vote_count.gte=5&without_genres=16|99|10751|10762|10763|10764|10766|10767|10768' }, // 🇷🇺 Популярные сериалы из России (2020+)
         
         // --- 📺 Originals (сериалы от конкретных платформ) ---
-        { id: 'okko_platform', emoji: '📺', name_key: 'tmdb_mod_c_okko', request: 'discover/tv?language=ru&with_networks=3871&sort_by=first_air_date.desc' }, 
-        { id: 'premier_platform', emoji: '📺', name_key: 'tmdb_mod_c_premier', request: 'discover/tv?language=ru&with_networks=2859&sort_by=first_air_date.desc' }, 
-        { id: 'start_platform', emoji: '📺', name_key: 'tmdb_mod_c_start', request: 'discover/tv?language=ru&with_networks=2493&sort_by=first_air_date.desc' }, 
-        { id: 'wink_platform', emoji: '📺', name_key: 'tmdb_mod_c_wink', request: 'discover/tv?language=ru&with_networks=5806&sort_by=first_air_date.desc' }, 
-        { id: 'kion_platform', emoji: '📺', name_key: 'tmdb_mod_c_kion', request: 'discover/tv?language=ru&with_networks=4085&sort_by=first_air_date.desc' }, 
-        { id: 'kinopoisk_platform', emoji: '📺', name_key: 'tmdb_mod_c_kinopoisk', request: 'discover/tv?language=ru&with_networks=3827&sort_by=first_air_date.desc' }, 
-        { id: 'cts_platform', emoji: '📺', name_key: 'tmdb_mod_c_cts', request: 'discover/tv?language=ru&with_networks=806&sort_by=first_air_date.desc' }, 
-        { id: 'tnt_platform', emoji: '📺', name_key: 'tmdb_mod_c_tnt', request: 'discover/tv?language=ru&with_networks=1191&sort_by=first_air_date.desc' }, 
-        { id: 'ivi_platform', emoji: '📺', name_key: 'tmdb_mod_c_ivi', request: 'discover/tv?language=ru&with_networks=3923&sort_by=first_air_date.desc' } 
+        { id: 'okko_platform', emoji: '📺', name_key: 'tmdb_mod_c_okko', request: 'discover/tv?with_networks=3871&sort_by=first_air_date.desc&first_air_date.lte=' + today }, 
+        { id: 'premier_platform', emoji: '📺', name_key: 'tmdb_mod_c_premier', request: 'discover/tv?with_networks=2859&sort_by=first_air_date.desc&first_air_date.lte=' + today }, 
+        { id: 'start_platform', emoji: '📺', name_key: 'tmdb_mod_c_start', request: 'discover/tv?with_networks=2493&sort_by=first_air_date.desc&first_air_date.lte=' + today }, 
+        { id: 'wink_platform', emoji: '📺', name_key: 'tmdb_mod_c_wink', request: 'discover/tv?with_networks=5806&sort_by=first_air_date.desc&first_air_date.lte=' + today }, 
+        { id: 'kion_platform', emoji: '📺', name_key: 'tmdb_mod_c_kion', request: 'discover/tv?with_networks=4085&sort_by=first_air_date.desc&first_air_date.lte=' + today }, 
+        { id: 'kinopoisk_platform', emoji: '📺', name_key: 'tmdb_mod_c_kinopoisk', request: 'discover/tv?with_networks=3827&sort_by=first_air_date.desc&first_air_date.lte=' + today }, 
+        { id: 'cts_platform', emoji: '📺', name_key: 'tmdb_mod_c_cts', request: 'discover/tv?with_networks=806&sort_by=first_air_date.desc&first_air_date.lte=' + today }, 
+        { id: 'tnt_platform', emoji: '📺', name_key: 'tmdb_mod_c_tnt', request: 'discover/tv?with_networks=1191&sort_by=first_air_date.desc&first_air_date.lte=' + today }, 
+        { id: 'ivi_platform', emoji: '📺', name_key: 'tmdb_mod_c_ivi', request: 'discover/tv?with_networks=3923&sort_by=first_air_date.desc&first_air_date.lte=' + today }, 
     ];
 
     // ⚙️ Настройки плагина по умолчанию (включен, все подборки активны)
